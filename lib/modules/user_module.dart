@@ -10,7 +10,7 @@ class BaseModule with ChangeNotifier{
   List smsReports = [];
   List paymentReports = [];
 
-  static const String baseUrl = 'http://kitebirdalpha.kiteholdings.biz:8800/';
+  static const String baseUrl = 'http://kitebirdalpha.kiteholdings.biz:8800';
 
   set setEmail(String value){
     email = value;

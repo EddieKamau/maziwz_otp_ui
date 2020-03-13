@@ -11,7 +11,7 @@ const RESOURCES = {
 "/icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "/icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "/manifest.json": "b878fcf54094d3c4945d4959a5e6f157",
-"/main.dart.js": "429fc49b974fdb7d122929d04622fee3"
+"/main.dart.js": "4dddd654797e3fe4c6ad07d0a2452866"
 };
 
 self.addEventListener('activate', function (event) {

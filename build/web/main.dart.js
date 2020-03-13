@@ -43067,7 +43067,7 @@ t=q}while(true)switch(t){case 0:k=u.N
 j=P.am(["content-type","application/json"],k,k)
 q=4
 t=7
-return P.a5(G.UT("http://127.0.0.1:8888/users",C.a9.dF(P.am(["email",a,"password",b],k,k)),j),$async$lL)
+return P.a5(G.UT("http://kitebirdalpha.kiteholdings.biz:8800/users",C.a9.dF(P.am(["email",a,"password",b],k,k)),j),$async$lL)
 case 7:m=d
 t=m.b===200||m.b===202?8:10
 break
@@ -43109,7 +43109,7 @@ m="Basic "+C.bX.gci().b3(j)
 q=4
 j=u.N
 t=7
-return P.a5(G.WX("http://127.0.0.1:8888/business",P.am(["authorization",m],j,j)),$async$jj)
+return P.a5(G.WX("http://kitebirdalpha.kiteholdings.biz:8800/business",P.am(["authorization",m],j,j)),$async$jj)
 case 7:l=b
 if(l.b===200||l.b===202){j=l
 n.c=u.j.a(C.a9.c0(0,B.ER(U.EM(j.e).c.a.h(0,"charset")).c0(0,j.x)))
@@ -43143,7 +43143,7 @@ m="Basic "+C.bX.gci().b3(j)
 q=4
 j=u.N
 t=7
-return P.a5(G.UT("http://127.0.0.1:8888/business",C.a9.dF(P.am(["label",a,"shortCode",b,"consumerKey",c,"consumerSecret",d],j,j)),P.am(["authorization",m,"content-type","application/json"],j,j)),$async$kV)
+return P.a5(G.UT("http://kitebirdalpha.kiteholdings.biz:8800/business",C.a9.dF(P.am(["label",a,"shortCode",b,"consumerKey",c,"consumerSecret",d],j,j)),P.am(["authorization",m,"content-type","application/json"],j,j)),$async$kV)
 case 7:l=f
 t=l.b===200||l.b===202?8:10
 break
@@ -43182,7 +43182,7 @@ m="Basic "+C.bX.gci().b3(j)
 q=4
 j=u.N
 t=7
-return P.a5(G.UT("http://127.0.0.1:8888/business/simulate/"+H.b(a),C.a9.dF(P.am(["amount",b,"refNo",c],j,j)),P.am(["authorization",m,"content-type","application/json"],j,j)),$async$mc)
+return P.a5(G.UT("http://kitebirdalpha.kiteholdings.biz:8800/business/simulate/"+H.b(a),C.a9.dF(P.am(["amount",b,"refNo",c],j,j)),P.am(["authorization",m,"content-type","application/json"],j,j)),$async$mc)
 case 7:l=e
 if(l.b===200||l.b===202){r=!0
 t=1
@@ -43215,7 +43215,7 @@ m="Basic "+C.bX.gci().b3(k)
 q=4
 k=u.N
 t=7
-return P.a5(G.WX("http://127.0.0.1:8888/business/smsReports/"+H.b(a),P.am(["authorization",m],k,k)),$async$nQ)
+return P.a5(G.WX("http://kitebirdalpha.kiteholdings.biz:8800/business/smsReports/"+H.b(a),P.am(["authorization",m],k,k)),$async$nQ)
 case 7:l=c
 if(l.b===200||l.b===202){k=l
 n.d=u.j.a(C.a9.c0(0,B.ER(U.EM(k.e).c.a.h(0,"charset")).c0(0,k.x)))
@@ -43251,7 +43251,7 @@ m="Basic "+C.bX.gci().b3(k)
 q=4
 k=u.N
 t=7
-return P.a5(G.WX("http://127.0.0.1:8888/business/paymentReports/"+H.b(a),P.am(["authorization",m],k,k)),$async$nR)
+return P.a5(G.WX("http://kitebirdalpha.kiteholdings.biz:8800/business/paymentReports/"+H.b(a),P.am(["authorization",m],k,k)),$async$nR)
 case 7:l=c
 if(l.b===200||l.b===202){k=l
 n.e=u.j.a(C.a9.c0(0,B.ER(U.EM(k.e).c.a.h(0,"charset")).c0(0,k.x)))
@@ -43285,7 +43285,7 @@ j=u.N
 m=P.am(["authorization","Basic "+C.bX.gci().b3(g),"content-type","application/json"],j,j)
 q=4
 t=7
-return P.a5(G.UT("http://127.0.0.1:8888/otp/verify",C.a9.dF(P.am(["refNo",a,"otp",b],j,j)),m),$async$oF)
+return P.a5(G.UT("http://kitebirdalpha.kiteholdings.biz:8800/otp/verify",C.a9.dF(P.am(["refNo",a,"otp",b],j,j)),m),$async$oF)
 case 7:l=d
 if(l.b===200||l.b===202){g=l
 g=P.am(["status",0,"body",C.a9.c0(0,B.ER(U.EM(g.e).c.a.h(0,"charset")).c0(0,g.x))],j,u.z)
